@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CollideWin.cs" />
+     <Compile Include="Assets\GameOver.cs" />
      <Compile Include="Assets\Slide.cs" />
      <Compile Include="Assets\SpinObject.cs" />
      <Compile Include="Assets\TitleGUI.cs" />

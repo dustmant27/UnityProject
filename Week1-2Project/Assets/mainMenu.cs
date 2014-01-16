@@ -17,6 +17,8 @@ public class mainMenu : MonoBehaviour {
 		//GUI.Box (new Rect ((Screen.width/2) - 50, (Screen.height /2) - 50, 200, 190), "Main Menu");
 		if(GUI.Button (new Rect(halfScreenW - (buttonW/2)  , Screen.height - 150, 150, buttonH), "Play")){
 			Application.LoadLevel ("GameLevel");
+
+
 			//targetBall.doChange ();
 		}
 		latLon = iPhoneInput.lastLocation.latitude.ToString()  + ", " +iPhoneInput.lastLocation.longitude.ToString () ;
