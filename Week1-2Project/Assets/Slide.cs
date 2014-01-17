@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Slide : MonoBehaviour {
- float speed= 15f;
+ float speed= 35f;
 	float moveUpThreshold= .2f;
 	float moveDownThreshold= 1.5f;
 	

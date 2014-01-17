@@ -10,7 +10,7 @@ public class CollideWin : MonoBehaviour {
 
 		void OnCollisionEnter(Collision collision) {
 		if (collision.gameObject.tag == "Player") {
-			Application.LoadLevel ("FirstScene");
+			Application.LoadLevel ("GameOver");
 				}
 
 			
