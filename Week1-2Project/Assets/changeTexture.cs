@@ -4,7 +4,7 @@ using System.Collections;
 public class changeTexture : MonoBehaviour {
 	void Start()
 	{
-				doChange ();
+			//	doChange ();
 		}
 	public void doChange(){
 		string deviceName = WebCamTexture.devices[0].name;

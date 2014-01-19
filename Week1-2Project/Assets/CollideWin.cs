@@ -1,21 +1,24 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CollideWin : MonoBehaviour {
+public class CollideWin : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
+		// Use this for initialization
+		void Start ()
+		{
 	
-	}
+		}
 
-		void OnCollisionEnter(Collision collision) {
-		if (collision.gameObject.tag == "Player") {
-			Application.LoadLevel ("GameOver");
+		void OnCollisionEnter (Collision collision)
+		{
+				if (collision.gameObject.tag == "Player") {
+								Application.LoadLevel ("GameOver");
 				}
 
 			
 		}
-	}
+}
 	
 
 

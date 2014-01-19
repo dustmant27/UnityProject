@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Slide : MonoBehaviour {
- float speed= 35f;
+ float speed= 75f;
 	float moveUpThreshold= .2f;
 	float moveDownThreshold= 1.5f;
 	
@@ -16,14 +16,10 @@ public class Slide : MonoBehaviour {
 	Vector3 emptyDir = Vector3.zero;
 	void Start(){
 		// remap device acceleration axis to game coordinates
-		dir.x = -Input.acceleration.y-startDir.x;
-		dir.z = -Input.acceleration.x-startDir.y;
 
 		startDir.x = Input.acceleration.x;
 		startDir.z = Input.acceleration.y;
-		if (startDir.sqrMagnitude > 1) {
-			startDir.Normalize();
-		}
+
 		// clamp acceleration vector to unit sphere
 	
 		}
@@ -36,8 +32,8 @@ public class Slide : MonoBehaviour {
 		// remap device acceleration axis to game coordinates:
 		//  1) XY plane of the device is mapped onto XZ plane
 		//  2) rotated 90 degrees around Y axis
-		dir.x = Input.acceleration.x;
-			dir.z = Input.acceleration.y;
+		dir.x = Input.acceleration.x- startDir.x;
+			dir.z = Input.acceleration.y - startDir.z;
 
 		//if (Input.acceleration.y > emptyDir.y) {
 

@@ -46,13 +46,23 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CollideLose.cs" />
      <Compile Include="Assets\CollideWin.cs" />
+     <Compile Include="Assets\FreezeDirection.cs" />
      <Compile Include="Assets\GameOver.cs" />
+     <Compile Include="Assets\PlayerLose.cs" />
      <Compile Include="Assets\Slide.cs" />
      <Compile Include="Assets\SpinObject.cs" />
      <Compile Include="Assets\TitleGUI.cs" />
      <Compile Include="Assets\changeTexture.cs" />
      <Compile Include="Assets\mainMenu.cs" />
+ <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{5B9E0647-405E-6C3E-A955-6BC145EF34A1}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

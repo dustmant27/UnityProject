@@ -24,6 +24,8 @@ public class mainMenu : MonoBehaviour {
 		latLon = iPhoneInput.lastLocation.latitude.ToString()  + ", " +iPhoneInput.lastLocation.longitude.ToString () ;
 		
 		GUI.Label (new Rect ((Screen.width / 2) - 75,  25, 250, 150), latLon);
+
+		GUI.Label (new Rect ((Screen.width / 2) - 75,  (Screen.height / 2) - 300, 600, 150), "Hit the green box! Stay away from the red!");
 	}
 	
 }
