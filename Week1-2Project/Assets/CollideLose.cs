@@ -13,6 +13,7 @@ public class CollideLose : MonoBehaviour {
 	{
 
 		if (collision.gameObject.tag == "Player") {
+			audio.Play ();
 				Application.LoadLevel ("GameOverLose");
 		}
 		

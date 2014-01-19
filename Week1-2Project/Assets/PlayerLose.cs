@@ -19,7 +19,7 @@ public class PlayerLose : MonoBehaviour {
 			//targetBall.doChange ();
 		}
 		
-		GUI.Label (new Rect ((Screen.width / 2) - 75,  25, 250, 150), "You lose!");
+		GUI.Label (new Rect ((Screen.width / 2) - 75,  25, 250, 250), "You lose!");
 	}
 	
 }

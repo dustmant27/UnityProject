@@ -1,19 +1,24 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/mainMenu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Music Manager.cs">
     <Files>
       <File FileName="Assets/CollideWin.cs" Line="15" Column="4" />
       <File FileName="Assets/FreezeDirection.cs" Line="1" Column="1" />
-      <File FileName="Assets/CollideWin.cs" Line="25" Column="1" />
-      <File FileName="Assets/CollideLose.cs" Line="19" Column="3" />
+      <File FileName="Assets/CollideLose.cs" Line="1" Column="1" />
       <File FileName="Assets/PlayerLose.cs" Line="1" Column="1" />
-      <File FileName="Assets/mainMenu.cs" Line="28" Column="75" />
+      <File FileName="Assets/mainMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets/StopCamera.cs" Line="1" Column="1" />
+      <File FileName="Assets/changeTexture.cs" Line="19" Column="3" />
+      <File FileName="../../Downloads/WebcamProj/Assets/WebcamTest.cs" Line="1" Column="1" />
+      <File FileName="Assets/Slide.cs" Line="1" Column="1" />
+      <File FileName="Assets/Music Manager.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/dustman527/UnityProject/Week1-2Project/Assets/Scripts/CollideWin.cs" line="16" />
       <Breakpoint file="/Users/dustman527/UnityProject/Week1-2Project/Assets/Scripts/CollideWin.cs" line="18" />
+      <Breakpoint file="/Users/dustman527/UnityProject/Week1-2Project/Assets/changeTexture.cs" line="22" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
