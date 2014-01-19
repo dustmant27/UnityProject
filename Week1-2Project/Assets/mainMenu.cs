@@ -8,6 +8,9 @@ public class mainMenu : MonoBehaviour {
 	private float halfScreenW = Screen.width/2;
 	public GUISkin customSkin;
 
+		
+
+
 	void OnGUI(){
 		string latLon;
 		LocationInfo location = new LocationInfo();
@@ -26,6 +29,11 @@ public class mainMenu : MonoBehaviour {
 		GUI.Label (new Rect ((Screen.width / 2) - 75,  25, 250, 150), latLon);
 
 		GUI.Label (new Rect ((Screen.width / 2) - 75,  (Screen.height / 2) - 300, 600, 150), "Hit the green box! Stay away from the red!");
-	}
 	
+	
+	
+	}
+
+
+
 }

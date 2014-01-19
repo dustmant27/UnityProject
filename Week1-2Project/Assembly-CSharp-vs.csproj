@@ -53,6 +53,7 @@
      <Compile Include="Assets\PlayerLose.cs" />
      <Compile Include="Assets\Slide.cs" />
      <Compile Include="Assets\SpinObject.cs" />
+     <Compile Include="Assets\StopCamera.cs" />
      <Compile Include="Assets\TitleGUI.cs" />
      <Compile Include="Assets\changeTexture.cs" />
      <Compile Include="Assets\mainMenu.cs" />
