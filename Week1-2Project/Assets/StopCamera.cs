@@ -1,12 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class StopCamera : MonoBehaviour {
+public class StopCamera : MonoBehaviour
+{
 
-	void OnCollisionEnter (Collision collision)
-	{
+		void OnCollisionEnter (Collision collision)
+		{
 //		gameObject.GetComponent <changeTexture>().stopCam ();
 		
 		
-	}
+		}
 }

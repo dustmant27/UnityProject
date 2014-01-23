@@ -1,19 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class FreezeDirection : MonoBehaviour {
+public class FreezeDirection : MonoBehaviour
+{
 	
-	public Transform target;
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		if(target != null)
+		public Transform target;
+		// Use this for initialization
+		void Start ()
 		{
-			transform.LookAt(target);
+	
 		}
-	}
+	
+		// Update is called once per frame
+		void Update ()
+		{
+				if (target != null) {
+						transform.LookAt (target);
+				}
+		}
 }
